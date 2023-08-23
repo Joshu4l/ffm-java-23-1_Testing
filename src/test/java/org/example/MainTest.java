@@ -35,6 +35,7 @@ public class MainTest {
         Assertions.assertEquals(expected,actual);
     }
 
+    //Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl gerade ist (even).
     @Test
     public void state_false_given_uneven_number() {
         //GIVEN
@@ -47,9 +48,6 @@ public class MainTest {
         //THEN
         Assertions.assertEquals(expected,actual);
     }
-
-
-
 
 
     //Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
