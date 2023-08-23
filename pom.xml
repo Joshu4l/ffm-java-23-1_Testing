@@ -13,10 +13,12 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <!--Wir verwenden im Rahmen des Kurses die Version 5.8.1 (läuft am stabilsten)-->
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
