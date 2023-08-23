@@ -1,8 +1,7 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("Starting Point");
         System.out.println("--------------");
@@ -23,14 +22,14 @@ public class Main {
     }
 
 
-    //Eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
+    //Eine Methode, die das Produkt zweier ganzer Zahlen berechnet
     public static int multiply(int number1, int number2){
 
         return number1 * number2;
     }
 
 
-    //Eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
+    //Eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt
     public static String turnIntoCapitalLetters(String inputString) {
 
         return inputString.toUpperCase();

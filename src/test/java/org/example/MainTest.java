@@ -35,6 +35,22 @@ public class MainTest {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void state_false_given_uneven_number() {
+        //GIVEN
+        int number = 3;
+
+        //WHEN
+        boolean actual = Main.isEven(number);
+        boolean expected = false;
+
+        //THEN
+        Assertions.assertEquals(expected,actual);
+    }
+
+
+
+
 
     //Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
     @Test
