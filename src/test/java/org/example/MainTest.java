@@ -94,6 +94,4 @@ public class MainTest {
         //THEN
         Assertions.assertEquals(expected, actual);
     }
-
-
 }
