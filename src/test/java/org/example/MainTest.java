@@ -1,6 +1,6 @@
 //Necessary Imports
 package org.example;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class MainTest {
